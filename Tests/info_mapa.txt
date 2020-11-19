@@ -1,0 +1,22 @@
+[info]
+imagen:Overworld.png
+can_ancho:41
+can_alto:36
+mapa: ......................................
+	  ......................................
+
+
+[.]
+tipo:cesped
+col:8
+fil:10
+
+[#]
+tipo:muro
+col:0
+fil:6
+
+[a]
+tipo:piedra
+col:20
+fil:6
