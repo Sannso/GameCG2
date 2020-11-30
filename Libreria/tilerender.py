@@ -20,7 +20,7 @@ class Renderer(object):
         if self.tmx_data.background_color:
             surface.fill(self.tmx_data.background_color)
 
-        #print(dir(pytmx))
+        #print(dir(self.tmx_data))
         for layer in self.tmx_data.visible_layers:
             if isinstance(layer, pytmx.TiledTileLayer):
                 for x, y, gid in layer:
